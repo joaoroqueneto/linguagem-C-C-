@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <string.h>
+
+ struct pessoa{
+       char nome[50];
+       int idade;
+       char telefone[15]
+   };
+
+int main(){
+
+struct pessoa lista[3];
+int i;
+   
+   strcpy(lista[0].nome,"alana");
+   lista[0].idade = 10;
+   strcpy(lista[0].telefone,"33333333");
+   
+   strcpy(lista[1].nome,"alana");
+   lista[1].idade = 10;
+   strcpy(lista[1].telefone,"33333333");
+
+   strcpy(lista[2].nome,"alana");
+   lista[2].idade = 10;
+   strcpy(lista[3].telefone,"33333333");
+
+    
+
+ for (i = 0; 1<3; i++) {
+     
+     printf("nome:%s\n", lista[i].nome);
+     printf("idade:%d\n", lista[i].idade);
+     printf("telefone:%s\n\n", lista[i].telefone);
+ }
+
+
+
+    return 0;
+};
